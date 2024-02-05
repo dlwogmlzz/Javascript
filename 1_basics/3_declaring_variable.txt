@@ -1,0 +1,42 @@
+/** 
+ * 
+ * Variable 宣言
+ * 
+ * 1) var - あんまり使わない。
+ * 2) let
+ * 3) const
+ */
+
+var name = 'コードファクトリー';
+console.log(name);
+
+var age = 33;
+console.log(age);
+
+let ive = 'アイブ';
+// console.log(ive);
+
+/**
+ * letとvarで宣言すると値を変更できる。
+ */
+
+ive = '장원영';
+console.log(ive);
+
+const newJeans = '뉴진스';
+console.log(newJeans);
+
+// newJeans = '다니엘';
+
+- 宣言と割り当て（선언과 할당）
+1) 宣言：変数を宣言すること。(var name;)
+2) 割り当て(var name = 'ive';)
+
+
+var name = 'lee';
+console.log(name);
+
+let Friend;
+console.log(Friend); // undefined
+
+const Friend2; //'const' declarations must be initialized.(必ず、const宣言を初期化すべき)

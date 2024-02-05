@@ -1,0 +1,19 @@
+1. Naming conventions
+
+	- 変数を作る時
+	1. 一般的に英語(ラテン文字)を使って文字と数字を両方使える。
+	2. 特殊記号はアンダースコア(_)とダラー($)を使える。
+	3. 数字で名前を始められない。(1Name, 2Hello)
+	4. キーワードは変数名で使用できない。(var var/let/const='var';)
+
+
+2. Naming conventions
+
+	- CamelCase(newJeans) -> 大部の言語でよく使用する、最初の文字は小文字、次の文字の最初は大文字
+	- snake_case -> パイソンでよく使う。
+	- PascalCase -> C# microsoft系の言語でよく使う。
+
+	# ex) const jangWonYoung = '장원영';
+	
+
+
